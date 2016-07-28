@@ -4,4 +4,5 @@ source "http://rubygems.org"
 git_source(:github){ |repo_name| "https://github.com/#{repo_name}.git" }
 
 gemspec
-gem 'fabrication', github: 'mathieujobin/fabrication', ref: '923cf6fcefd0566b1d6be7bd2f685b89388f4800'
+#gem 'fabrication', github: 'mathieujobin/fabrication', ref: '923cf6fcefd0566b1d6be7bd2f685b89388f4800'
+#gem "fabrication", github: 'paulelliott/fabrication' # for ruby 2.3.1 support

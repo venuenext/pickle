@@ -2,7 +2,7 @@ require 'spec_helper'
 
 require 'active_record'
 require 'factory_girl'
-require 'fabrication'
+#require 'fabrication'
 require 'machinist/active_record'
 require 'pickle/adapters/active_record'
 
@@ -115,7 +115,7 @@ describe Pickle::Adapter do
       end
     end
 
-    describe 'Fabrication' do
+    describe 'Fabrication', :pending do
       before do
         @schematic1 = [:one, Fabrication::Schematic::Definition.new(One)]
         @schematic2 = [:two, Fabrication::Schematic::Definition.new(One::Two)]
